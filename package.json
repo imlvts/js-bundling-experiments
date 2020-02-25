@@ -1,0 +1,37 @@
+{
+  "name": "js-bundling-experiments",
+  "version": "1.0.0",
+  "description": "Trying out js bundling speed",
+  "main": "index.js",
+  "scripts": {
+    "install": "node scripts/download-pax.js"
+  },
+  "author": "Igor Malovitsa <igor.malovitsa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@swc/cli": "^0.1.23",
+    "browserify": "^16.5.0",
+    "gunzip-maybe": "^1.4.1",
+    "mkdirp": "^1.0.3",
+    "progress": "^2.0.3",
+    "swcify": "^1.0.1",
+    "tar-fs": "^2.0.0",
+    "three": "^0.113.2",
+    "unzipper": "^0.10.9",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@swc/core": "^1.1.28",
+    "babel-loader": "^8.0.6",
+    "node-fetch": "^2.6.0",
+    "swc-loader": "^0.1.8"
+  },
+  "optionalDependencies": {
+    "esbuild-linux-64": "0.0.9",
+    "esbuild-darwin-64": "0.0.9",
+    "esbuild-windows-64": "0.0.9"
+  }
+}
